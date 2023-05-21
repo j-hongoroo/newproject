@@ -1,0 +1,45 @@
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background-color: #dcdde1;
+    padding-top: 3rem;
+}
+.tasks{
+    margin-top: 1.5rem;
+
+}
+
+input{
+    width: 289px;
+    height: 2.8rem;
+    padding-left: 10px;
+    font-size: 16px;
+}
+button{
+    padding: 0.8rem 2rem;
+}
+.tasks .btn{
+    height: 2.9rem;
+    border-left: none;
+    font-size: 14px;
+    background-color:#4cd137 ;
+    color: white;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem ;
+    font-size: 22px;
+    border-bottom: black solid 1px;
+}
+.task .icon{
+    color: #e84118;
+}
+.task a{
+    text-decoration: none;
+    color: black;
+}

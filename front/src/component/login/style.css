@@ -1,0 +1,25 @@
+.logMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    background-color: #dcdde1;
+}
+.logMain .login{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 3rem;
+}
+.logMain .login h2{
+    margin:10px auto;
+
+}
+.login button{
+    background-color: #8c7ae6;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+

@@ -1,0 +1,25 @@
+.regMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    background-color: #dcdde1;
+}
+.register{
+    gap: .5rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+
+}
+.register h2{
+    margin: 10px auto;
+}
+.register button{
+    background-color: #8c7ae6;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
